@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RetrofitKotlinDemo</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="movie">Movie</string>
+    <string name="btn1_str">User API(Json)</string>
+    <string name="btn2_str">Album API(Json)</string>
+    <string name="btn3_str">Movie API(Json)</string>
+</resources>
