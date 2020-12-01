@@ -19,9 +19,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".model.MainActivity"/>
+        <activity android:name=".model.user.MainActivity"/>
         <activity android:name=".model.movie.MovieActivity"/>
-        <activity android:name=".model.AbbumActivity"/>
+        <activity android:name=".model.album.AbbumActivity"/>
 
         <provider
             android:name="androidx.core.content.FileProvider"

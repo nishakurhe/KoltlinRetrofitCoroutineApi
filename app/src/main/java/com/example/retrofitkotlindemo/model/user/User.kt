@@ -1,4 +1,4 @@
-package com.example.retrofitkotlindemo.model
+package com.example.retrofitkotlindemo.model.user
 
 class User {
     var id:Int = 0

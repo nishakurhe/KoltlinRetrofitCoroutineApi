@@ -1,4 +1,4 @@
-package com.example.retrofitkotlindemo.model
+package com.example.retrofitkotlindemo.model.album
 
 import android.os.Bundle
 import android.util.Log
@@ -10,8 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.retrofitkotlindemo.R
-import com.example.retrofitkotlindemo.model.album.ApiClient
-import com.example.retrofitkotlindemo.model.album.DataModel
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.album_item_lay.view.*

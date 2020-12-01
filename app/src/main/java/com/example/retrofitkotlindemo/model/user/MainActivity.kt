@@ -1,4 +1,4 @@
-package com.example.retrofitkotlindemo.model
+package com.example.retrofitkotlindemo.model.user
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -74,13 +74,13 @@ class MainActivity : AppCompatActivity() {
 
         inner class UserViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
-        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserAdapter.UserViewHolder {
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {
             return UserViewHolder(LayoutInflater.from(this@MainActivity).inflate(R.layout.user_item_lay,parent,false))
         }
 
         override fun getItemCount() = userLst.size
 
-        override fun onBindViewHolder(holder: UserAdapter.UserViewHolder, position: Int) {
+        override fun onBindViewHolder(holder: UserViewHolder, position: Int) {
             holder.itemView.user_id.text = userLst[position].id.toString()
             holder.itemView.user_login.text = userLst[position].login
             holder.itemView.user_score.text = userLst[position].score.toString()

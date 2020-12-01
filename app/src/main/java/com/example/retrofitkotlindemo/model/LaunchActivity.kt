@@ -7,7 +7,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.retrofitkotlindemo.R
+import com.example.retrofitkotlindemo.model.album.AbbumActivity
 import com.example.retrofitkotlindemo.model.movie.MovieActivity
+import com.example.retrofitkotlindemo.model.user.MainActivity
 import kotlinx.android.synthetic.main.lay_launch_activity.*
 
 class LaunchActivity : AppCompatActivity () {
